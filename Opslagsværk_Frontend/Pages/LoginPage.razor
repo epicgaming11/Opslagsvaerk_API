@@ -1,0 +1,77 @@
+﻿@page "/login"
+@using Blazored.LocalStorage
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService localStorage
+
+<div class="page-wrapper">
+
+    <div class="headers">
+    <h1>Opslagsværk</h1>
+    <h3>Opslagsværk – Upload & Showcase Your ProgrammingProjects</h3>
+</div>
+
+    <div class="container">
+        <form @onsubmit="HandleLogin" @onsubmit:preventDefault>
+            <div>
+                <label for="username">Username:</label>
+                <input id="username" @bind="Username" />
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input id="password" type="password" @bind="Password" />
+            </div>
+            <button type="submit">Log in</button>
+            @if (!string.IsNullOrEmpty(ErrorMessage))
+            {
+                <p style="color: #ffffff;">@ErrorMessage</p>
+            }
+        </form>
+    </div>
+
+</div>
+
+@code {
+    private string Username { get; set; } = "";
+    private string Password { get; set; } = "";
+    private string ErrorMessage { get; set; } = "";
+
+    private async Task HandleLogin()
+    {
+        Console.WriteLine("Login function started");
+        var loginData = new
+        {
+            username = Username,
+            hashed_password = Password
+        };
+
+        var response = await Http.PostAsJsonAsync("api/User/Login", loginData);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var loginResponse = await response.Content.ReadFromJsonAsync<LoginResponse>();
+
+            if (loginResponse != null && !string.IsNullOrEmpty(loginResponse.Token))
+            {
+                await localStorage.SetItemAsync("authToken", loginResponse.Token);
+                NavigationManager.NavigateTo("/home");
+            }
+            else
+            {
+                ErrorMessage = "Login failed: Token not received.";
+            }
+        }
+        else
+        {
+            ErrorMessage = "Login failed.";
+        }
+    }
+
+    public class LoginResponse
+    {
+        public string Message { get; set; }
+        public string Token { get; set; }
+        public int Id { get; set; }
+        public int RoleId { get; set; }
+    }
+}

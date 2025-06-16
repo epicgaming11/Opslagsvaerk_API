@@ -1,0 +1,11 @@
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\bin\Debug\net8.0\Opslagsværk.Shared.deps.json
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\bin\Debug\net8.0\Opslagsværk.Shared.dll
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\bin\Debug\net8.0\Opslagsværk.Shared.pdb
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\Opslagsværk.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\Opslagsværk.Shared.AssemblyInfoInputs.cache
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\Opslagsværk.Shared.AssemblyInfo.cs
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\Opslagsværk.Shared.csproj.CoreCompileInputs.cache
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\Opslagsværk.Shared.dll
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\refint\Opslagsværk.Shared.dll
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\Opslagsværk.Shared.pdb
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk.Shared\obj\Debug\net8.0\ref\Opslagsværk.Shared.dll

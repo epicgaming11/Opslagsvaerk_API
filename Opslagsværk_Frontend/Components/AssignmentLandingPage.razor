@@ -1,0 +1,49 @@
+﻿<div class="product-card">
+    @if (!string.IsNullOrEmpty(imageUrl))
+    {
+        <img src="@imageUrl" alt="Product Image" class="product-image" />
+    }
+    <div class="product-description">
+        @description
+    </div>
+</div>
+
+<style>
+    .product-card {
+        background-color: #F06E9C;
+        border-radius: 16px;
+        padding: 16px;
+        width: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: white;
+        font-family: sans-serif;
+        transition: transform 0.2s;
+    }
+
+        .product-card:hover {
+            transform: scale(1.02);
+        }
+
+    .product-image {
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+        margin-bottom: 12px;
+    }
+
+    .product-description {
+        font-size: 16px;
+        font-weight: 500;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public string? imageUrl { get; set; }
+
+    [Parameter]
+    public string? description { get; set; }
+
+    [Parameter]
+    public int? id { get; set; }
+}

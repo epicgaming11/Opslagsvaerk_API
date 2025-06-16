@@ -1,0 +1,22 @@
+﻿.assignmentBox{
+    margin-left: 330px;
+    margin-right: 110px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@code {
+
+}
+
+
+
+#F6A2BF
+#F06E9C

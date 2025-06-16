@@ -1,0 +1,80 @@
+﻿@page "/categoryview/{Id:int}"
+@inject HttpClient httpClient
+@inject JwtService JwtService
+@using System.Net.Http.Headers
+@using Opslagsværk.Shared
+@using Opslagsværk_Frontend.Components
+@using Opslagsværk_Frontend.Services
+@using Microsoft.AspNetCore.Components
+
+<NavBar Categories="@categories"></NavBar>
+
+<h3>Category Assignments</h3>
+
+@if (assignments == null)
+{
+    <p>Loading...</p>
+}
+else if (!assignments.Any())
+{
+    <p>No assignments found for this category.</p>
+}
+else
+{
+    <div class="assignment-list">
+        @foreach (var assignment in assignments)
+        {
+            <AssignmentLandingPage imageUrl="@assignment?.ImgURL" description="@assignment?.Description" />
+        }
+    </div>
+}
+
+<style>
+    .assignment-list {
+        margin-left: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private List<Assignment>? assignments;
+    private List<Category>? categories;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        assignments = null;
+
+        var token = await JwtService.GetTokenAsync();
+
+        if (string.IsNullOrEmpty(token))
+        {
+            Console.WriteLine("No auth token found.");
+            assignments = new List<Assignment>();
+            return;
+        }
+
+        if (categories == null)
+        {
+            categories = await httpClient.GetFromJsonAsync<List<Category>>("api/Categories/GetAllCategories");
+        }
+
+        httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+        try
+        {
+            var apiUrl = $"api/Assignment/getassignmentbycategoryid/{Id}";
+            assignments = await httpClient.GetFromJsonAsync<List<Assignment>>(apiUrl);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching assignments: {ex.Message}");
+            assignments = new List<Assignment>();
+        }
+    }
+}

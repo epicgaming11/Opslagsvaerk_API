@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Opslagsværk_Frontend.styles.css",
+      "PackagePath": "staticwebassets\\Opslagsværk_Frontend.styles.css"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Opslagsværk_Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Opslagsværk_Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Opslagsværk_Frontend.props",
+      "PackagePath": "build\\Opslagsværk_Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Opslagsværk_Frontend.props",
+      "PackagePath": "buildMultiTargeting\\Opslagsværk_Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Opslagsværk_Frontend.props",
+      "PackagePath": "buildTransitive\\Opslagsværk_Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

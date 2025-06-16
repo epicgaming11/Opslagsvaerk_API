@@ -1,0 +1,56 @@
+﻿@page "/home"
+@using System.Net.Http.Json
+@using Opslagsværk.Shared
+@using Opslagsværk_Frontend.Components
+@using Opslagsværk_Frontend.Services
+@inject HttpClient httpClient
+@inject JwtService JwtService
+@inject NavigationManager NavigationManager
+
+@if (!isTokenChecked)
+{
+    <p>Checking session...</p>
+}
+else if (isValid)
+{
+    <NavBar Categories="@categories"></NavBar>
+
+    @if (assignments == null || assignments.Count < 3)
+    {
+        <p>Loading assignments...</p>
+    }
+    else
+    {
+        <div class="assignmentBox" style="display: flex; gap: 1rem;">
+            <AssignmentLandingPage imageUrl="@assignments[0].ImgURL" description="@assignments[0].Description" />
+            <AssignmentLandingPage imageUrl="@assignments[1].ImgURL" description="@assignments[1].Description" />
+            <AssignmentLandingPage imageUrl="@assignments[2].ImgURL" description="@assignments[2].Description" />
+        </div>
+    }
+}
+else
+{
+    <p>Redirecting to login...</p>
+}
+
+@code {
+    private List<Assignment>? assignments;
+    private List<Category>? categories;
+    private bool isValid;
+    private bool isTokenChecked = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isValid = await JwtService.IsTokenValid();
+        isTokenChecked = true;
+
+        if (!isValid)
+        {
+            NavigationManager.NavigateTo("/login", forceLoad: true);
+            return;
+        }
+
+        assignments = await httpClient.GetFromJsonAsync<List<Assignment>>("api/Assignment/GetAllAssignments");
+        categories = await httpClient.GetFromJsonAsync<List<Category>>("api/Categories/GetAllCategories");
+    }
+}

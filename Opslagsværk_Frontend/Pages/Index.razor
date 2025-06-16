@@ -1,0 +1,29 @@
+﻿@page "/"
+@using Opslagsværk_Frontend.Services
+@inject NavigationManager NavigationManager
+@inject JwtService JwtService
+
+@if (!isTokenChecked)
+{
+        <p>Checking session...</p>
+}
+else if (isValid)
+{
+    NavigationManager.NavigateTo("/home", forceLoad: true);
+
+}
+@code {
+    private bool isValid;
+    private bool isTokenChecked = false;
+    protected override async Task OnInitializedAsync()
+    {
+        isValid = await JwtService.IsTokenValid();
+        isTokenChecked = true;
+
+        if (!isValid)
+        {
+            NavigationManager.NavigateTo("/login", forceLoad: true);
+            return;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+﻿@using Opslagsværk.Shared
+@using Microsoft.AspNetCore.Components.Routing
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+@inject NavigationManager NavigationManager
+
+<div class="navbar">
+    <div class="top-bar">
+        <button class="add-button" @onclick="AddProject">Add project +</button>
+        <div class="title">Opslagsværk</div>
+        <button class="logout-button" @onclick="Logout">Logout</button>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-title">Categories</div>
+        @if (Categories != null)
+        {
+            foreach (var category in Categories)
+            {
+                <NavLink class="category-button"
+                href="@($"/categoryview/{category.Id}")"
+                Match="NavLinkMatch.Prefix">
+                    @category.Name
+                </NavLink>
+            }
+        }
+    </div>
+</div>
+
+<style>
+    .category-button {
+    display: block;
+    padding: 0.5em 1em;
+    margin-bottom: 0.25em;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    }
+
+    .category-button.active {
+    font-weight: bold;
+    background-color: #ddd;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public List<Category>? Categories { get; set; }
+
+    private async void Logout()
+    {
+        await localStorage.RemoveItemAsync("authToken");
+        NavigationManager.NavigateTo("/login", forceLoad: true);
+    }
+
+    private void AddProject()
+    {
+        // TODO: Add add project logic here
+    }
+}

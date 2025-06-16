@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Opslagsværk_Frontend.props" />
+</Project>
