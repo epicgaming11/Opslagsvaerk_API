@@ -1,8 +1,8 @@
 ﻿@page "/login"
-@using Blazored.LocalStorage
-@inject HttpClient Http
+@using Blazored.LocalStorage <!--for browser storage-->
+@inject HttpClient Http 
 @inject NavigationManager NavigationManager
-@inject ILocalStorageService localStorage
+@inject ILocalStorageService localStorage 
 
 <div class="page-wrapper">
 
@@ -12,6 +12,7 @@
 </div>
 
     <div class="container">
+        <!--calls HandleLogin on "submit"-->
         <form @onsubmit="HandleLogin" @onsubmit:preventDefault>
             <div>
                 <label for="username">Username:</label>
@@ -32,28 +33,41 @@
 </div>
 
 @code {
+    //these properties store the values entered by the user in the login form.
     private string Username { get; set; } = "";
     private string Password { get; set; } = "";
+
     private string ErrorMessage { get; set; } = "";
 
+    //This method is called when the user submits the login form.
+    //It handles the process of sending the users credentials to the backend and checking the response.
     private async Task HandleLogin()
     {
         Console.WriteLine("Login function started");
+        //objects hold username and password from the form.
         var loginData = new
         {
             username = Username,
             hashed_password = Password
         };
 
+        // send the login data to the backend using HTTP POST request.
+        //endpoint is "api/User/Login".
         var response = await Http.PostAsJsonAsync("api/User/Login", loginData);
 
+        //Check if response from backend successful.
         if (response.IsSuccessStatusCode)
         {
+            //if successful, read the HTTP response body as a LoginResponse object.
             var loginResponse = await response.Content.ReadFromJsonAsync<LoginResponse>();
 
+            //Check if response has a token, and if its empty or null.
             if (loginResponse != null && !string.IsNullOrEmpty(loginResponse.Token))
             {
+                //save the recieved JWT token in the browers local storage for later use.
                 await localStorage.SetItemAsync("authToken", loginResponse.Token);
+
+                //Redirect the user to home page after succesful login.
                 NavigationManager.NavigateTo("/home");
             }
             else
@@ -67,6 +81,7 @@
         }
     }
 
+    //This class defines the data structure for the response from the backend after login.
     public class LoginResponse
     {
         public string Message { get; set; }

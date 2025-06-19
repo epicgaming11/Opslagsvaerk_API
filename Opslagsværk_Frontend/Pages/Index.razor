@@ -3,23 +3,27 @@
 @inject NavigationManager NavigationManager
 @inject JwtService JwtService
 
-@if (!isTokenChecked)
+
+@if (!isTokenChecked) //Token is being checked.
 {
         <p>Checking session...</p>
 }
-else if (isValid)
+else if (isValid) //Token checked, force load to Home page.
 {
     NavigationManager.NavigateTo("/home", forceLoad: true);
 
 }
 @code {
-    private bool isValid;
-    private bool isTokenChecked = false;
+
+    private bool isValid; // Tells if the token validation step has completed yet.
+    private bool isTokenChecked = false; // Stores the result of the token validation (true, false).
     protected override async Task OnInitializedAsync()
     {
+        //call JwtService to check if the users token is valid.
         isValid = await JwtService.IsTokenValid();
         isTokenChecked = true;
 
+        //if token not valid, redirect to login page and force reload.
         if (!isValid)
         {
             NavigationManager.NavigateTo("/login", forceLoad: true);

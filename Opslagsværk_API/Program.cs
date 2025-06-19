@@ -21,7 +21,7 @@ builder.Services.AddScoped<IAssignment, AssignmentRepository>();
 builder.Services.AddScoped<ICategories, CategoryRepository>();
 builder.Services.AddScoped<IAssignmentCategories, AssignmentCategoryRepository>();
 builder.Services.AddScoped<JwtGenerator>();
-builder.Services.AddScoped<CloudinaryService>();
+//builder.Services.AddScoped<CloudinaryService>();
 
 // --- JWT AUTH CONFIG ---
 var jwtKey = "StarWarsFeaturingWalterWhiteAndSkylerYo69";

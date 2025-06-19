@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eWf6Vo176amXukRxWtfvIKdrruGnQxJVLX9Cy+Rq5u4=",
+  "Hash": "d2Qujg5zHooxY9KYONzbVjKwb/l5QFgAEnwY02oUYOc=",
   "Source": "Opslagsværk_Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "3alkgunmov",
-      "Integrity": "RR+wAfW9yMyA/v8wydJ+8UgFnOEZyT5ShAIqHPJcMmQ=",
+      "Fingerprint": "ljdbpc776k",
+      "Integrity": "r01kdWhO74SqM1ieJ62d4vR5hNU4l6S6BkNhk5/ZP4w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "q74yrlrtp3",
-      "Integrity": "KldrfpsGwFbIXvQY0t5o/9LCHPB7I9qHv/myeTkzMOk=",
+      "Fingerprint": "hnfk28sjun",
+      "Integrity": "w5EayVNwzfL7leZ1AZM2CM/UfdNDVfiRMGZXCjzRTLk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\Opslagsværk_Frontend.pdb"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "njm2idpxju",
-      "Integrity": "o1QTQ7Rw+5Vpcnk5MSGJ0FE+R2nGaTa/Fd13j8qdiaU=",
+      "Fingerprint": "6zrjhzm7ze",
+      "Integrity": "nq4Ppe/KlHeeHDj4+WM2V1WOA3iEAqlCdGzfqQ2oiIM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\webcil\\Opslagsværk_Frontend.wasm"
@@ -4973,7 +4973,7 @@
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.wasm"
     },
     {
-      "Identity": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\3x3mpqjx62-njm2idpxju.gz",
+      "Identity": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\3x3mpqjx62-6zrjhzm7ze.gz",
       "SourceId": "Opslagsværk_Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\",
@@ -4987,8 +4987,8 @@
       "RelatedAsset": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Opslagsværk_Frontend.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4gtg80gkp3",
-      "Integrity": "7P4zdn4t5Rr9gWO91bYYwHpkVCY8J28y9jwgwVdUuxA=",
+      "Fingerprint": "y2uyy3ta7e",
+      "Integrity": "NpUdEZGYTynqj7d3R3cvF98zsG8bTk+ZlTsaHMvtXOE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Opslagsværk_Frontend.wasm"
@@ -7052,7 +7052,7 @@
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.wasm"
     },
     {
-      "Identity": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\ikzw0bj2sb-q74yrlrtp3.gz",
+      "Identity": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\ikzw0bj2sb-hnfk28sjun.gz",
       "SourceId": "Opslagsværk_Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\",
@@ -7066,8 +7066,8 @@
       "RelatedAsset": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Opslagsværk_Frontend.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pp82umbfu3",
-      "Integrity": "nf6BeGNJzYtzCYuQd8o6ef9IgrL+McpW86DCfYaAL0g=",
+      "Fingerprint": "de9hvs69k6",
+      "Integrity": "K6doTKOVeAycHtbdzfAtwqewof9I0dBIiFMHLzlf958=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Opslagsværk_Frontend.pdb"
@@ -8480,7 +8480,7 @@
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.DataAnnotations.wasm"
     },
     {
-      "Identity": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\wfvqsprtsn-3alkgunmov.gz",
+      "Identity": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\wfvqsprtsn-ljdbpc776k.gz",
       "SourceId": "Opslagsværk_Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\",
@@ -8494,8 +8494,8 @@
       "RelatedAsset": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7n1yz8g879",
-      "Integrity": "01/MOVTrkI4yRiiRyAJGYcIgIywq0yLuO2jYePz2diQ=",
+      "Fingerprint": "4tmak8zdw0",
+      "Integrity": "CEoqV8HZ3Hy75dRocQEBoTt7k/gIKvGrucUAu10sYFE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9172,11 +9172,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RR+wAfW9yMyA/v8wydJ+8UgFnOEZyT5ShAIqHPJcMmQ=\""
+          "Value": "\"r01kdWhO74SqM1ieJ62d4vR5hNU4l6S6BkNhk5/ZP4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:38 GMT"
+          "Value": "Thu, 19 Jun 2025 22:59:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9186,18 +9186,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RR+wAfW9yMyA/v8wydJ+8UgFnOEZyT5ShAIqHPJcMmQ="
+          "Value": "sha256-r01kdWhO74SqM1ieJ62d4vR5hNU4l6S6BkNhk5/ZP4w="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\wfvqsprtsn-3alkgunmov.gz",
+      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\wfvqsprtsn-ljdbpc776k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000108624810"
+          "Quality": "0.000108613012"
         }
       ],
       "ResponseHeaders": [
@@ -9207,15 +9207,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9205"
+          "Value": "9206"
         },
         {
           "Name": "ETag",
-          "Value": "\"01/MOVTrkI4yRiiRyAJGYcIgIywq0yLuO2jYePz2diQ=\""
+          "Value": "\"CEoqV8HZ3Hy75dRocQEBoTt7k/gIKvGrucUAu10sYFE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:23:59 GMT"
+          "Value": "Thu, 19 Jun 2025 21:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9235,19 +9235,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RR+wAfW9yMyA/v8wydJ+8UgFnOEZyT5ShAIqHPJcMmQ=\""
+          "Value": "W/\"r01kdWhO74SqM1ieJ62d4vR5hNU4l6S6BkNhk5/ZP4w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RR+wAfW9yMyA/v8wydJ+8UgFnOEZyT5ShAIqHPJcMmQ="
+          "Value": "sha256-r01kdWhO74SqM1ieJ62d4vR5hNU4l6S6BkNhk5/ZP4w="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\wfvqsprtsn-3alkgunmov.gz",
+      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\wfvqsprtsn-ljdbpc776k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9256,7 +9256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9205"
+          "Value": "9206"
         },
         {
           "Name": "Content-Type",
@@ -9264,11 +9264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"01/MOVTrkI4yRiiRyAJGYcIgIywq0yLuO2jYePz2diQ=\""
+          "Value": "\"CEoqV8HZ3Hy75dRocQEBoTt7k/gIKvGrucUAu10sYFE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:23:59 GMT"
+          "Value": "Thu, 19 Jun 2025 21:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9286,7 +9286,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-01/MOVTrkI4yRiiRyAJGYcIgIywq0yLuO2jYePz2diQ="
+          "Value": "sha256-CEoqV8HZ3Hy75dRocQEBoTt7k/gIKvGrucUAu10sYFE="
         }
       ]
     },
@@ -15740,7 +15740,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33836"
+          "Value": "33808"
         },
         {
           "Name": "Content-Type",
@@ -15748,11 +15748,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KldrfpsGwFbIXvQY0t5o/9LCHPB7I9qHv/myeTkzMOk=\""
+          "Value": "\"w5EayVNwzfL7leZ1AZM2CM/UfdNDVfiRMGZXCjzRTLk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:37 GMT"
+          "Value": "Thu, 19 Jun 2025 22:59:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15762,18 +15762,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KldrfpsGwFbIXvQY0t5o/9LCHPB7I9qHv/myeTkzMOk="
+          "Value": "sha256-w5EayVNwzfL7leZ1AZM2CM/UfdNDVfiRMGZXCjzRTLk="
         }
       ]
     },
     {
       "Route": "_framework/Opslagsværk_Frontend.pdb",
-      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\ikzw0bj2sb-q74yrlrtp3.gz",
+      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\ikzw0bj2sb-hnfk28sjun.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000040123581"
+          "Quality": "0.000039676242"
         }
       ],
       "ResponseHeaders": [
@@ -15783,15 +15783,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24922"
+          "Value": "25203"
         },
         {
           "Name": "ETag",
-          "Value": "\"nf6BeGNJzYtzCYuQd8o6ef9IgrL+McpW86DCfYaAL0g=\""
+          "Value": "\"K6doTKOVeAycHtbdzfAtwqewof9I0dBIiFMHLzlf958=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:23:59 GMT"
+          "Value": "Thu, 19 Jun 2025 21:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15811,19 +15811,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KldrfpsGwFbIXvQY0t5o/9LCHPB7I9qHv/myeTkzMOk=\""
+          "Value": "W/\"w5EayVNwzfL7leZ1AZM2CM/UfdNDVfiRMGZXCjzRTLk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KldrfpsGwFbIXvQY0t5o/9LCHPB7I9qHv/myeTkzMOk="
+          "Value": "sha256-w5EayVNwzfL7leZ1AZM2CM/UfdNDVfiRMGZXCjzRTLk="
         }
       ]
     },
     {
       "Route": "_framework/Opslagsværk_Frontend.pdb.gz",
-      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\ikzw0bj2sb-q74yrlrtp3.gz",
+      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\ikzw0bj2sb-hnfk28sjun.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15832,7 +15832,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24922"
+          "Value": "25203"
         },
         {
           "Name": "Content-Type",
@@ -15840,11 +15840,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nf6BeGNJzYtzCYuQd8o6ef9IgrL+McpW86DCfYaAL0g=\""
+          "Value": "\"K6doTKOVeAycHtbdzfAtwqewof9I0dBIiFMHLzlf958=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:23:59 GMT"
+          "Value": "Thu, 19 Jun 2025 21:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15862,7 +15862,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nf6BeGNJzYtzCYuQd8o6ef9IgrL+McpW86DCfYaAL0g="
+          "Value": "sha256-K6doTKOVeAycHtbdzfAtwqewof9I0dBIiFMHLzlf958="
         }
       ]
     },
@@ -15885,11 +15885,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o1QTQ7Rw+5Vpcnk5MSGJ0FE+R2nGaTa/Fd13j8qdiaU=\""
+          "Value": "\"nq4Ppe/KlHeeHDj4+WM2V1WOA3iEAqlCdGzfqQ2oiIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:37 GMT"
+          "Value": "Thu, 19 Jun 2025 22:59:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15899,18 +15899,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o1QTQ7Rw+5Vpcnk5MSGJ0FE+R2nGaTa/Fd13j8qdiaU="
+          "Value": "sha256-nq4Ppe/KlHeeHDj4+WM2V1WOA3iEAqlCdGzfqQ2oiIM="
         }
       ]
     },
     {
       "Route": "_framework/Opslagsværk_Frontend.wasm",
-      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\3x3mpqjx62-njm2idpxju.gz",
+      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\3x3mpqjx62-6zrjhzm7ze.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000066041474"
+          "Quality": "0.000066555740"
         }
       ],
       "ResponseHeaders": [
@@ -15920,15 +15920,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15141"
+          "Value": "15024"
         },
         {
           "Name": "ETag",
-          "Value": "\"7P4zdn4t5Rr9gWO91bYYwHpkVCY8J28y9jwgwVdUuxA=\""
+          "Value": "\"NpUdEZGYTynqj7d3R3cvF98zsG8bTk+ZlTsaHMvtXOE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:23:59 GMT"
+          "Value": "Thu, 19 Jun 2025 21:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15948,19 +15948,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"o1QTQ7Rw+5Vpcnk5MSGJ0FE+R2nGaTa/Fd13j8qdiaU=\""
+          "Value": "W/\"nq4Ppe/KlHeeHDj4+WM2V1WOA3iEAqlCdGzfqQ2oiIM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o1QTQ7Rw+5Vpcnk5MSGJ0FE+R2nGaTa/Fd13j8qdiaU="
+          "Value": "sha256-nq4Ppe/KlHeeHDj4+WM2V1WOA3iEAqlCdGzfqQ2oiIM="
         }
       ]
     },
     {
       "Route": "_framework/Opslagsværk_Frontend.wasm.gz",
-      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\3x3mpqjx62-njm2idpxju.gz",
+      "AssetFile": "C:\\H2\\repos\\Opslagsværk projekt API\\Opslagsværk_Frontend\\obj\\Debug\\net8.0\\compressed\\3x3mpqjx62-6zrjhzm7ze.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15969,7 +15969,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15141"
+          "Value": "15024"
         },
         {
           "Name": "Content-Type",
@@ -15977,11 +15977,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7P4zdn4t5Rr9gWO91bYYwHpkVCY8J28y9jwgwVdUuxA=\""
+          "Value": "\"NpUdEZGYTynqj7d3R3cvF98zsG8bTk+ZlTsaHMvtXOE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:23:59 GMT"
+          "Value": "Thu, 19 Jun 2025 21:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15999,7 +15999,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7P4zdn4t5Rr9gWO91bYYwHpkVCY8J28y9jwgwVdUuxA="
+          "Value": "sha256-NpUdEZGYTynqj7d3R3cvF98zsG8bTk+ZlTsaHMvtXOE="
         }
       ]
     },

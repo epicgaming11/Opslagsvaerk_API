@@ -45,18 +45,23 @@
     }
 </style>
 
+
+
 @code {
+
+    // List of categories passed in by parent component, can be null if not provided.
     [Parameter]
     public List<Category>? Categories { get; set; }
 
+    //This method handles the logout proccess of the user
     private async void Logout()
     {
-        await localStorage.RemoveItemAsync("authToken");
-        NavigationManager.NavigateTo("/login", forceLoad: true);
+        await localStorage.RemoveItemAsync("authToken"); //Removes the "authToken".
+        NavigationManager.NavigateTo("/login", forceLoad: true); //Back to login page, forced reload of application.
     }
 
     private void AddProject()
     {
-        // TODO: Add add project logic here
+        // TODO: add project logic here.
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Opslagsværk_Frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cc94df3676be85d5d3d8770495dc4e665decd09")]
 [assembly: System.Reflection.AssemblyProductAttribute("Opslagsværk_Frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Opslagsværk_Frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

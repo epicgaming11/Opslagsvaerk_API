@@ -1075,6 +1075,7 @@ C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\comp
 C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\12f20v2hr3-90ns27xxgz.gz
 C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\fjxi0xjjrt-7r2s6fdmqt.gz
 C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\riubej3q1x-73ah5knv97.gz
-C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\3x3mpqjx62-njm2idpxju.gz
-C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\ikzw0bj2sb-q74yrlrtp3.gz
-C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\wfvqsprtsn-3alkgunmov.gz
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\Opslagsværk_Frontend.sourcelink.json
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\3x3mpqjx62-6zrjhzm7ze.gz
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\ikzw0bj2sb-hnfk28sjun.gz
+C:\H2\repos\Opslagsværk projekt API\Opslagsværk_Frontend\obj\Debug\net8.0\compressed\wfvqsprtsn-ljdbpc776k.gz

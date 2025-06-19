@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CloudinaryDotNet.Actions;
 using Microsoft.EntityFrameworkCore;
 using Opslagsværk_API.DTOs.AssignmentCategoryDTOs;
 using Opslagsværk_API.DTOs.CategoryDTOs;

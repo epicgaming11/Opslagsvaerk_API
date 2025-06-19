@@ -28,30 +28,38 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Components/AssignmentLandingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBc3NpZ25tZW50TGFuZGluZ1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/AssignmentView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNzaWdubWVudFZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/LoginPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/CategoryView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlWaWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Components/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ghqnd59s20
+
 [C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7kcmpye89p
 
-[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-lsgxadbyh6
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-iu6ilokb9h
+
+[C:/H2/repos/Opslagsværk projekt API/Opslagsværk_Frontend/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-t2t4bpk7ou
